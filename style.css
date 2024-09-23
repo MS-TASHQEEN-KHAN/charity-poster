@@ -1,0 +1,111 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{height: 100%;
+width: 100%;}
+
+.poster{width: 60%;
+height: 100%;
+margin: 0% 20%;
+border: 5px solid black;
+position: relative;}
+
+.poster>img{width: 100%;
+height: 30%;}
+
+.poster .div1{width: 45%;
+color: white;
+position: absolute;
+top: 2%;
+left: 2%;}
+
+.poster .div1>h1{font-size: 32px;
+margin-bottom: 15px;}
+
+.poster .div1>h2{font-size: 22px;
+margin-bottom: 20px;}
+
+.poster .div1>button{font-size: 20px;
+padding: 7px 30px;
+border: 3px solid white;
+border-radius: 20px;
+margin-bottom: 10px;
+color: white;
+background-color: transparent;}
+
+.poster>p{text-align: center;
+font-size: 28px;
+font-weight: 900;
+margin: 50px 100px;
+margin-bottom: 20px;}
+
+.poster>button{font-size: 25px;
+padding: 7px 30px;
+border: 3px solid black;
+border-radius: 20px;
+margin-bottom: 50px;
+margin-left: 40%;
+color: black;
+background-color: skyblue;}
+
+.poster .content{width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;}
+
+.poster .content .first{width: 48%;
+position: relative;}
+
+.poster .content .first>img{width: 550px;
+    height: 385px;
+filter: brightness(40%)}
+
+.poster .content .first .left>h1{position: absolute;
+top: 70px;
+left: 20px;
+color: white;}
+
+.poster .content .first .left>p{width: 90%;
+position: absolute;
+top: 120px;
+left: 20px;
+color: white;}
+
+.poster .content .first .left>button{position: absolute;
+top: 170px;
+left: 20px;
+color: white;
+font-size: 25px;
+padding: 7px 30px;
+border: 3px solid white;
+background-color: transparent;}
+
+.poster .content .second{width: 48%;
+position: relative;}
+    
+.poster .content .second>img{width: 550px;
+    height: 385px;
+filter: brightness(40%)}
+    
+.poster .content .second .right>h1{position: absolute;
+top: 70px;
+left: 20px;
+color: white;}
+    
+.poster .content .second .right>p{width: 90%;
+position: absolute;
+top: 120px;
+left: 20px;
+color: white;}
+    
+.poster .content .second .right>button{position: absolute;
+top: 170px;
+left: 20px;
+color: white;
+font-size: 25px;
+padding: 7px 30px;
+border: 3px solid white;
+background-color: transparent;}
+    
